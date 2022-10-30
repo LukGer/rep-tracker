@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C073346F290EE8E600A30376 /* RepTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073346E290EE8E600A30376 /* RepTrackerApp.swift */; };
+		C0733471290EE8E600A30376 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0733470290EE8E600A30376 /* ContentView.swift */; };
+		C0733473290EE8E800A30376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0733472290EE8E800A30376 /* Assets.xcassets */; };
+		C0733476290EE8E800A30376 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0733475290EE8E800A30376 /* Preview Assets.xcassets */; };
+		C0733480290EE8E800A30376 /* RepTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073347F290EE8E800A30376 /* RepTrackerTests.swift */; };
+		C073348A290EE8E800A30376 /* RepTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0733489290EE8E800A30376 /* RepTrackerUITests.swift */; };
+		C073348C290EE8E800A30376 /* RepTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073348B290EE8E800A30376 /* RepTrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C073347C290EE8E800A30376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0733463290EE8E600A30376 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C073346A290EE8E600A30376;
+			remoteInfo = RepTracker;
+		};
+		C0733486290EE8E800A30376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0733463290EE8E600A30376 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C073346A290EE8E600A30376;
+			remoteInfo = RepTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C073346B290EE8E600A30376 /* RepTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C073346E290EE8E600A30376 /* RepTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepTrackerApp.swift; sourceTree = "<group>"; };
+		C0733470290EE8E600A30376 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C0733472290EE8E800A30376 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0733475290EE8E800A30376 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C073347B290EE8E800A30376 /* RepTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C073347F290EE8E800A30376 /* RepTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepTrackerTests.swift; sourceTree = "<group>"; };
+		C0733485290EE8E800A30376 /* RepTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0733489290EE8E800A30376 /* RepTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepTrackerUITests.swift; sourceTree = "<group>"; };
+		C073348B290EE8E800A30376 /* RepTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0733468290EE8E600A30376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0733478290EE8E800A30376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0733482290EE8E800A30376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0733462290EE8E600A30376 = {
+			isa = PBXGroup;
+			children = (
+				C073346D290EE8E600A30376 /* RepTracker */,
+				C073347E290EE8E800A30376 /* RepTrackerTests */,
+				C0733488290EE8E800A30376 /* RepTrackerUITests */,
+				C073346C290EE8E600A30376 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C073346C290EE8E600A30376 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C073346B290EE8E600A30376 /* RepTracker.app */,
+				C073347B290EE8E800A30376 /* RepTrackerTests.xctest */,
+				C0733485290EE8E800A30376 /* RepTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C073346D290EE8E600A30376 /* RepTracker */ = {
+			isa = PBXGroup;
+			children = (
+				C073346E290EE8E600A30376 /* RepTrackerApp.swift */,
+				C0733470290EE8E600A30376 /* ContentView.swift */,
+				C0733472290EE8E800A30376 /* Assets.xcassets */,
+				C0733474290EE8E800A30376 /* Preview Content */,
+			);
+			path = RepTracker;
+			sourceTree = "<group>";
+		};
+		C0733474290EE8E800A30376 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C0733475290EE8E800A30376 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C073347E290EE8E800A30376 /* RepTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C073347F290EE8E800A30376 /* RepTrackerTests.swift */,
+			);
+			path = RepTrackerTests;
+			sourceTree = "<group>";
+		};
+		C0733488290EE8E800A30376 /* RepTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0733489290EE8E800A30376 /* RepTrackerUITests.swift */,
+				C073348B290EE8E800A30376 /* RepTrackerUITestsLaunchTests.swift */,
+			);
+			path = RepTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C073346A290EE8E600A30376 /* RepTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C073348F290EE8E800A30376 /* Build configuration list for PBXNativeTarget "RepTracker" */;
+			buildPhases = (
+				C0733467290EE8E600A30376 /* Sources */,
+				C0733468290EE8E600A30376 /* Frameworks */,
+				C0733469290EE8E600A30376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RepTracker;
+			productName = RepTracker;
+			productReference = C073346B290EE8E600A30376 /* RepTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C073347A290EE8E800A30376 /* RepTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0733492290EE8E800A30376 /* Build configuration list for PBXNativeTarget "RepTrackerTests" */;
+			buildPhases = (
+				C0733477290EE8E800A30376 /* Sources */,
+				C0733478290EE8E800A30376 /* Frameworks */,
+				C0733479290EE8E800A30376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C073347D290EE8E800A30376 /* PBXTargetDependency */,
+			);
+			name = RepTrackerTests;
+			productName = RepTrackerTests;
+			productReference = C073347B290EE8E800A30376 /* RepTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0733484290EE8E800A30376 /* RepTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0733495290EE8E800A30376 /* Build configuration list for PBXNativeTarget "RepTrackerUITests" */;
+			buildPhases = (
+				C0733481290EE8E800A30376 /* Sources */,
+				C0733482290EE8E800A30376 /* Frameworks */,
+				C0733483290EE8E800A30376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0733487290EE8E800A30376 /* PBXTargetDependency */,
+			);
+			name = RepTrackerUITests;
+			productName = RepTrackerUITests;
+			productReference = C0733485290EE8E800A30376 /* RepTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0733463290EE8E600A30376 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					C073346A290EE8E600A30376 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					C073347A290EE8E800A30376 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = C073346A290EE8E600A30376;
+					};
+					C0733484290EE8E800A30376 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = C073346A290EE8E600A30376;
+					};
+				};
+			};
+			buildConfigurationList = C0733466290EE8E600A30376 /* Build configuration list for PBXProject "RepTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0733462290EE8E600A30376;
+			productRefGroup = C073346C290EE8E600A30376 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C073346A290EE8E600A30376 /* RepTracker */,
+				C073347A290EE8E800A30376 /* RepTrackerTests */,
+				C0733484290EE8E800A30376 /* RepTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0733469290EE8E600A30376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0733476290EE8E800A30376 /* Preview Assets.xcassets in Resources */,
+				C0733473290EE8E800A30376 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0733479290EE8E800A30376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0733483290EE8E800A30376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0733467290EE8E600A30376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0733471290EE8E600A30376 /* ContentView.swift in Sources */,
+				C073346F290EE8E600A30376 /* RepTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0733477290EE8E800A30376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0733480290EE8E800A30376 /* RepTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0733481290EE8E800A30376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C073348A290EE8E800A30376 /* RepTrackerUITests.swift in Sources */,
+				C073348C290EE8E800A30376 /* RepTrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C073347D290EE8E800A30376 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C073346A290EE8E600A30376 /* RepTracker */;
+			targetProxy = C073347C290EE8E800A30376 /* PBXContainerItemProxy */;
+		};
+		C0733487290EE8E800A30376 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C073346A290EE8E600A30376 /* RepTracker */;
+			targetProxy = C0733486290EE8E800A30376 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C073348D290EE8E800A30376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C073348E290EE8E800A30376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0733490290EE8E800A30376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RepTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = WUBYBH9K9B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lukger.dev.RepTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0733491290EE8E800A30376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RepTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = WUBYBH9K9B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lukger.dev.RepTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0733493290EE8E800A30376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WUBYBH9K9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lukger.dev.RepTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RepTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RepTracker";
+			};
+			name = Debug;
+		};
+		C0733494290EE8E800A30376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WUBYBH9K9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lukger.dev.RepTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RepTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RepTracker";
+			};
+			name = Release;
+		};
+		C0733496290EE8E800A30376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WUBYBH9K9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lukger.dev.RepTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RepTracker;
+			};
+			name = Debug;
+		};
+		C0733497290EE8E800A30376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WUBYBH9K9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lukger.dev.RepTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RepTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0733466290EE8E600A30376 /* Build configuration list for PBXProject "RepTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C073348D290EE8E800A30376 /* Debug */,
+				C073348E290EE8E800A30376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C073348F290EE8E800A30376 /* Build configuration list for PBXNativeTarget "RepTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0733490290EE8E800A30376 /* Debug */,
+				C0733491290EE8E800A30376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0733492290EE8E800A30376 /* Build configuration list for PBXNativeTarget "RepTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0733493290EE8E800A30376 /* Debug */,
+				C0733494290EE8E800A30376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0733495290EE8E800A30376 /* Build configuration list for PBXNativeTarget "RepTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0733496290EE8E800A30376 /* Debug */,
+				C0733497290EE8E800A30376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0733463290EE8E600A30376 /* Project object */;
+}
