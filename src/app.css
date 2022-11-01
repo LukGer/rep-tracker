@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	font-family: 'Lexend', sans-serif;
+
+	--bg-color: #e0f0ff;
+	--header-color: #1a182e;
+}
