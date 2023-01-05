@@ -6,8 +6,7 @@ export interface Workout {
 
 export interface Exercise {
 	title: string;
-	description: string;
-	weight: number;
 	sets: number;
 	reps: number;
+	weight: number;
 }

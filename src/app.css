@@ -10,3 +10,8 @@
 	--bg-color: #e0f0ff;
 	--header-color: #1a182e;
 }
+
+i.fa-solid {
+	display: grid;
+	align-content: center;
+}
